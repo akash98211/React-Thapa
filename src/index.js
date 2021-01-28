@@ -1,17 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDom from 'react-dom';
+import  './index.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+const image1="https://picsum.photos/200/300";
+const image2="https://picsum.photos/250/300";
+const image3="https://picsum.photos/230/300";
+
+const heading={
+  textAlign ="center", color: " #fa9191",
+};
+ReactDom.render(
+  <>
+ <h1  style={{heading }}>{`this is fnamelname`}</h1>
+ <div className="img_dev">
+   <img src={image1} alt="random image" />
+  <img src={image2} alt="random image" />
+  <img src={image3} alt="random image" />
+ </div>
+ </>
+,document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
