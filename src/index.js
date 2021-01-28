@@ -1,22 +1,29 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import  './index.css';
+import './index.css';
 
-const image1="https://picsum.photos/200/300";
-const image2="https://picsum.photos/250/300";
-const image3="https://picsum.photos/230/300";
+let time=new Date(2021,1,1,20);
+time=time.getHours();
+let cssStyle={}
 
-const heading={
-  textAlign ="center", color: " #fa9191",
-};
+if(time>=1 && time<=11)
+{time='Moring';
+ cssStyle.color='green';
+}
+else if(time>=12 && time<= 19)
+{time='Afternoon';
+cssStyle.color='orange';
+}
+
+else
+{time='Evening';
+cssStyle.color='Red';}  
+
 ReactDom.render(
-  <>
- <h1  style={{heading }}>{`this is fnamelname`}</h1>
- <div className="img_dev">
-   <img src={image1} alt="random image" />
-  <img src={image2} alt="random image" />
-  <img src={image3} alt="random image" />
- </div>
- </>
-,document.getElementById('root')
+<><div>
+  <h1>Hello Sir,Good  <span style={cssStyle}>{time}</span></h1>
+  </div>
+  </>
+  ,document.getElementById('root')
+
 );
