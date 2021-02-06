@@ -1,18 +1,10 @@
-import React from 'react';
+import React from "react";
+import Amazon from "./Amazon";
+import Netflix from "./Netflix";
 
-import Heading from "./Heading";
-import Para from "./Para";
-import List from "./List";
+const favseries="netflix";
 
-function App() {
-    return(
-<>
-<Heading/>
-<Para/>
-<List/>
-<Para/>
-</>
-    );
-}
-
-export default App;
+const favs =()=>{
+    {(favseries==="netflix") ?  <Netflix/> : <Amazon/>}
+    
+    }
