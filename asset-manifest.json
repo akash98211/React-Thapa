@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Google-Keep-Clone-Project/static/css/main.ae24cdd4.chunk.css",
+    "main.js": "/Google-Keep-Clone-Project/static/js/main.4c46a71e.chunk.js",
+    "main.js.map": "/Google-Keep-Clone-Project/static/js/main.4c46a71e.chunk.js.map",
+    "runtime-main.js": "/Google-Keep-Clone-Project/static/js/runtime-main.f518b5b6.js",
+    "runtime-main.js.map": "/Google-Keep-Clone-Project/static/js/runtime-main.f518b5b6.js.map",
+    "static/js/2.6a0dedc5.chunk.js": "/Google-Keep-Clone-Project/static/js/2.6a0dedc5.chunk.js",
+    "static/js/2.6a0dedc5.chunk.js.map": "/Google-Keep-Clone-Project/static/js/2.6a0dedc5.chunk.js.map",
+    "index.html": "/Google-Keep-Clone-Project/index.html",
+    "static/css/main.ae24cdd4.chunk.css.map": "/Google-Keep-Clone-Project/static/css/main.ae24cdd4.chunk.css.map",
+    "static/js/2.6a0dedc5.chunk.js.LICENSE.txt": "/Google-Keep-Clone-Project/static/js/2.6a0dedc5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f518b5b6.js",
+    "static/js/2.6a0dedc5.chunk.js",
+    "static/css/main.ae24cdd4.chunk.css",
+    "static/js/main.4c46a71e.chunk.js"
+  ]
+}
